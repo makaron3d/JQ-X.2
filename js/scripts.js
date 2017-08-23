@@ -3,7 +3,7 @@ var span = $("span");
 });
 
 span.each(function(index, element) {
-	if(index % 2 == 0) {
+    if(index % 2 == 0) {
 		$(element).css('color', 'red');
 	};
 });
@@ -22,13 +22,13 @@ $("button").click(function(){
 
 $(function(){
   
-  $("body").append("<div><h1>Nic!</h1><p>Jakaś treść!</p></div>")
+    $("body").append("<div><h1>Nic!</h1><p>Jakaś treść!</p></div>")
   
-  var firstItem = $('div').find('h1')
+    var firstItem = $('div').find('h1')
  
-  console.log(firstItem.text());
+    console.log(firstItem.text());
   
-  firstItem.css("color", "blue")
+    firstItem.css("color", "blue")
 });
 
 $(function() {
